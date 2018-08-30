@@ -1,4 +1,4 @@
 # ShootingGame
 JavaScript面向对象游戏设计
-这是一款通过JavaScript+Canvas实现的设计游戏
+这是一款通过JavaScript+Canvas实现的射击游戏
 体现了面向对象的编程思想
