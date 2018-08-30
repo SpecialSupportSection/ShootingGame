@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<h1 id="title">SSS Games</h1>
+	<div id="game" game-status="start">
+		<div class="game-panel">
+			<section class="game-intro game-ui">
+				<h1 class="section-title">射击游戏</h1>
+				<p class="game-desc">这是一个令人欲罢不能的射击游戏，使用 ← 和 → 操作你的飞机，使用空格（space）进行射击。一起来消灭宇宙怪兽吧！</p>
+				<button class="js-play button">开始游戏</button>
+			</section>
+			<section class="game-score game-ui">
+				<span>分数：</span>
+				<span class="score">0</span>
+			</section>
+			<section class="game-failed game-ui">
+				<h1 class="section-title">游戏结束</h1>
+				<p class="game-info-text">飞船坠毁</p>
+				<p class="game-info-text">最终得分:
+					<span class="score"></span>
+				</p>
+				<button class="js-replay button">重新开始</button>
+			</section>
+			<section class="game-success game-ui">
+				<h1 class="section-title">游戏成功</h1>
+				<p class="game-info-text">你已经成功防御了所有怪兽的攻击</p>
+				<p class="game-info-text">最终得分:
+					<span class="score"></span>
+				</p>
+				<button class="js-replay button">再玩一次</button>
+			</section>
+		</div>
+		<canvas id="canvas" width="700px" height="600px"></canvas>
+	</div>
+	<audio autoplay="autoplay" loop="loop" preload="auto" id="menu">
+		<source type="audio/mp3" src="music/menu.mp3" />
+	</audio>
+	<audio loop="loop" preload="auto" id="play">
+		<source type="audio/mp3" src="music/play.mp3" />
+	</audio>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
