@@ -1,2 +1,2 @@
-# ShootingGame
-JavaScript面向对象游戏设计
+# shooting game
+a simple shooting game write with ES5
